@@ -1,6 +1,4 @@
-import { asNodes } from './bind.ts';
-import { createSignal } from './signal.ts';
-import type { Accessor, Setter } from './types.ts';
+import { asNodes, createSignal, Accessor, Setter } from '@signalite/core';
 
 type Fn<T> = (item: Accessor<T>, index: Accessor<number>) => unknown;
 type Y<T> = { setV: Setter<T>; setI: Setter<number>; nodes: Node[] };

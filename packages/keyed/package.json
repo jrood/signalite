@@ -1,5 +1,5 @@
 {
-  "name": "signalite",
+  "name": "@signalite/keyed",
   "version": "0.0.1",
   "type": "module",
   "main": "index.ts",
@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "https://signalite.dev"
+  },
+  "peerDependencies": {
+    "@signalite/core": "0.0.1"
   }
 }

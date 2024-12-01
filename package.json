@@ -1,0 +1,13 @@
+{
+  "name": "signalite",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "index.ts",
+  "author": "John Rood",
+  "license": "MIT",
+  "description": "A minimalist library for making declarative web apps with signals.",
+  "repository": {
+    "type": "git",
+    "url": "https://signalite.dev"
+  }
+}
